@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Вс. 28 февр. 2016 00:21:11
+
+BeginCmp
+TimeStamp = /56D21725;
+Reference = C1;
+ValeurCmp = FILTER IC;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D21320;
+Reference = C2;
+ValeurCmp = FILTER MOTOR;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D1D734;
+Reference = IC1;
+ValeurCmp = 4094N;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D21288;
+Reference = P1;
+ValeurCmp = INPUT;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D20F25;
+Reference = P2;
+ValeurCmp = NEXT;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D2040D;
+Reference = P3;
+ValeurCmp = MOTOR_A4988;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D208D5;
+Reference = P4;
+ValeurCmp = MOTOR_A4988;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D20C72;
+Reference = P5;
+ValeurCmp = MOTOR 8-35V;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D20934;
+Reference = P6;
+ValeurCmp = motor_Z_in;
+IdModule  = SIL-4;
+EndCmp
+
+EndListe
