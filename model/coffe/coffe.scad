@@ -7,16 +7,15 @@ translate([30,64,3])
 linear_extrude(height = 4)
 import("_coffe2.dxf");
 
-/*
-linear_extrude(height = 4)
+translate([36.5,64,2])
+linear_extrude(height = 6)
 polygon(points=[
-	[0,0],[0,10],[60,80]//,[40,0]
+	[0,0],[-1,15.5],[0,15.5],[1,0]//[50,64],
+/*
+  [60,80],//,[40,0]
 	[50,-40],//[5,-8],
 	[50,-80],[40,-80],
 	[40,-40],[30,-10],
-  [20,0]
-],
-convexity = 10
+  [20,0]*/
+]
 );
-*/
-
