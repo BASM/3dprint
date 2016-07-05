@@ -1,21 +1,20 @@
-//cube([9,3,3]);
 
-linear_extrude(height = 9)
+h=9;
+linear_extrude(height = h)
 import("_coffe1.dxf");
 
-translate([30,64,3])
-linear_extrude(height = 4)
-import("_coffe2.dxf");
-
-translate([36.5,64,2])
-linear_extrude(height = 6)
+bsize=14.98;
+hh=h/2;
+translate([31.5,64.52,h/2.0-hh/2])
+linear_extrude(height = hh)
 polygon(points=[
-	[0,0],[-1,15.5],[0,15.5],[1,0]//[50,64],
-/*
-  [60,80],//,[40,0]
-	[50,-40],//[5,-8],
-	[50,-80],[40,-80],
-	[40,-40],[30,-10],
-  [20,0]*/
-]
-);
+   [0,0],[-1,bsize],
+   [4,bsize],[5,-0.52]
+]);
+
+hb=hh+2;
+translate([36.5,64,h/2-hb/2])
+linear_extrude(height = hb)
+polygon(points=[
+  [0,0],[-1,15.5],[0,15.5],[1,0],
+]);
